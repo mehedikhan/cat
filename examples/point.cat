@@ -1,0 +1,29 @@
+struct Point
+  x : Float
+  y : Float
+
+  def dist(other : Point) : Float
+    dx = @x - other.x
+    dy = @y - other.y
+    Math.sqrt(dx * dx + dy * dy)
+  end
+
+  def move(dx : Float, dy : Float)
+    @x = @x + dx
+    @y = @y + dy
+  end
+
+  def to_str : String
+    "(#{@x}, #{@y})"
+  end
+end
+
+a = Point.new(0.0, 0.0)
+b = Point.new(x: 3.0, y: 4.0)
+
+puts "a = #{a.to_str}"
+puts "b = #{b.to_str}"
+puts "distance = #{a.dist(b)}"
+
+a.move(1.0, 1.0)
+puts "a moved to #{a.to_str}"

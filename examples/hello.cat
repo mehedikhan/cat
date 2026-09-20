@@ -1,0 +1,7 @@
+# The obligatory one.
+name = "world"
+puts "hello, #{name}!"
+
+3.times do |i|
+  puts "line #{i + 1}"
+end

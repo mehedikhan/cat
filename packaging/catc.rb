@@ -19,22 +19,22 @@ class Catc < Formula
   on_macos do
     on_arm do
       url "https://github.com/mehedikhan/cat/releases/download/v#{version}/catc_v#{version}_darwin_arm64.tar.gz"
-      sha256 "REPLACE_WITH_CHECKSUM"
+      sha256 "c476837389fdf392992c1c49e24c4fff988323d69940ba3590e95614b4c855d5"
     end
     on_intel do
       url "https://github.com/mehedikhan/cat/releases/download/v#{version}/catc_v#{version}_darwin_amd64.tar.gz"
-      sha256 "REPLACE_WITH_CHECKSUM"
+      sha256 "f052230b1ab7b4f620a85313c6e03257556cd2f912ae5d7c45cefaa03008d13c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/mehedikhan/cat/releases/download/v#{version}/catc_v#{version}_linux_arm64.tar.gz"
-      sha256 "REPLACE_WITH_CHECKSUM"
+      sha256 "3b9c61c062bb9c13bba6cce5b59a5f1b6475af5edf5706e968530f1d5b89473a"
     end
     on_intel do
       url "https://github.com/mehedikhan/cat/releases/download/v#{version}/catc_v#{version}_linux_amd64.tar.gz"
-      sha256 "REPLACE_WITH_CHECKSUM"
+      sha256 "974e98db854b6334a543ab5129a81d29b283df627feb5777c69d72b3ecd2ad4e"
     end
   end
 

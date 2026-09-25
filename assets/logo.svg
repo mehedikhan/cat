@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="cat logo: a black cat">
+  <defs>
+    <linearGradient id="eye" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B8F27A"/>
+      <stop offset="1" stop-color="#3FA34D"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop, so the black cat stays visible on dark themes -->
+  <circle cx="256" cy="256" r="240" fill="#F4EBDD"/>
+
+  <!-- head -->
+  <path fill="#111111" d="
+    M 118 262
+    C 110 200, 118 140, 138 92
+    C 150 90, 200 130, 214 150
+    Q 256 138, 298 150
+    C 312 130, 362 90, 374 92
+    C 394 140, 402 200, 394 262
+    C 410 340, 340 400, 256 400
+    C 172 400, 102 340, 118 262 Z"/>
+
+  <!-- inner ears -->
+  <g fill="#2B2226">
+    <path d="M 146 118 C 158 120, 186 146, 194 158 Q 168 170, 142 196 Q 138 150, 146 118 Z"/>
+    <path d="M 366 118 C 354 120, 326 146, 318 158 Q 344 170, 370 196 Q 374 150, 366 118 Z"/>
+  </g>
+
+  <!-- eyes -->
+  <g fill="url(#eye)">
+    <path d="M 158 260 C 172 232, 214 232, 228 276 C 204 298, 168 290, 158 260 Z"/>
+    <path d="M 354 260 C 340 232, 298 232, 284 276 C 308 298, 344 290, 354 260 Z"/>
+  </g>
+  <g fill="#111111">
+    <ellipse cx="195" cy="266" rx="6" ry="22"/>
+    <ellipse cx="317" cy="266" rx="6" ry="22"/>
+  </g>
+  <g fill="#FFFFFF">
+    <circle cx="206" cy="254" r="4"/>
+    <circle cx="328" cy="254" r="4"/>
+  </g>
+
+  <!-- nose and mouth -->
+  <path fill="#6E4450" d="M 244 312 Q 256 308, 268 312 Q 262 322, 256 326 Q 250 322, 244 312 Z"/>
+  <path fill="none" stroke="#3A3A3A" stroke-width="3" stroke-linecap="round"
+        d="M 256 326 Q 256 338, 244 342 M 256 326 Q 256 338, 268 342"/>
+
+  <!-- whiskers -->
+  <g fill="none" stroke="#8A8A8A" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 222 322 Q 180 312, 138 312"/>
+    <path d="M 222 332 Q 180 332, 136 340"/>
+    <path d="M 224 342 Q 186 350, 150 366"/>
+    <path d="M 290 322 Q 332 312, 374 312"/>
+    <path d="M 290 332 Q 332 332, 376 340"/>
+    <path d="M 288 342 Q 326 350, 362 366"/>
+  </g>
+
+  <!-- collar in Go blue, with a ruby for a tag -->
+  <path fill="none" stroke="#00ADD8" stroke-width="14" stroke-linecap="round"
+        d="M 178 384 Q 256 424, 334 384"/>
+  <path fill="#CC342D" d="M 240 412 L 272 412 L 282 424 L 256 452 L 230 424 Z"/>
+  <path fill="none" stroke="#E8685F" stroke-width="2" stroke-linejoin="round"
+        d="M 230 424 L 282 424 M 240 412 L 248 424 L 256 452 L 264 424 L 272 412"/>
+</svg>

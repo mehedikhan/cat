@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" alt="cat logo: a black cat" width="200">
+</p>
+
 # cat
 
 A small programming language with Ruby's syntax and Go's semantics.

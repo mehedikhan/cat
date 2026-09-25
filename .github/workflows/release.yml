@@ -1,7 +1,7 @@
 name: release
 
 # Publishes cross-compiled archives when a version tag is pushed:
-#   git tag v0.1.0 && git push origin v0.1.0
+#   git tag v1.0.0 && git push origin v1.0.0
 on:
   push:
     tags: ['v*']

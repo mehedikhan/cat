@@ -90,7 +90,7 @@ if [ -z "$version" ]; then
       ;;
     403|429)
       die "GitHub rate-limited this request (HTTP $status). Wait a few minutes,
-       or pick a version explicitly: CATC_VERSION=v0.1.0 sh install.sh"
+       or pick a version explicitly: CATC_VERSION=v1.0.0 sh install.sh"
       ;;
     000)
       die "could not reach api.github.com (network or proxy problem)"

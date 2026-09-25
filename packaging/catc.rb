@@ -11,7 +11,7 @@
 class Catc < Formula
   desc "Ruby-flavoured language that compiles through Go"
   homepage "https://github.com/mehedikhan/cat"
-  version "0.1.0"
+  version "1.0.0"
   license "MIT"
 
   depends_on "go"

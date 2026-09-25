@@ -53,7 +53,7 @@ Then check your setup:
 
 ```
 $ catc doctor
-catc      v0.1.0 (darwin/arm64)
+catc      v1.0.0 (darwin/arm64)
 installed /usr/local/bin/catc
 go        go1.24.0
           /opt/homebrew/bin/go
@@ -255,7 +255,7 @@ Known limits of this version, roughly in the order they are worth fixing:
 
 ```sh
 make test
-git tag v0.1.0 && git push origin v0.1.0
+git tag v1.0.0 && git push origin v1.0.0
 ```
 
 The `release` workflow cross-compiles for darwin, linux and windows on amd64
